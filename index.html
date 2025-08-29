@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhando com JavaScript</title>
-    <script src="js/script.js"></script>
+    <title>Evento</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>Trabalhando com JavaScript tipo Number</h1>
+    
+    <input type="text" id="campo" placeholder="Digite algo">
+    <p id="saida"></p>
+    <button onclick="saudar('João')">Saudar João</button>
+    <button id="btn">Clique</button>
+    <p id="mensagem">Clique no botão para mudar o texto!</p>
+    <button onclick="mudarTexto()"> Clique aqui</button>
+    
+    <form>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        <button id="enviar">Enviar</button>
+    </form>
+
+    <button id="adicionar"> Adcionar item</button>
+    <ul id="lista"></ul>
+
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+    <button onclick="calcular()">Somar</button>
+    <p id="resultado"></p>
+
+    <p id="texto">Passe o mouse aqui</p>
+
+
+    <script src="JS/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+.destaque{
+    background-color: yeloow;
+    color:red;
+    font-size: 20px;
+}
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  background-color: #2cc76a;
+  color: #fff;
+  cursor: pointer;
+}
